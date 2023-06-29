@@ -4,7 +4,7 @@ public class Hourglass {
     public static void main(String[] args) {
         printHourglassOfGivenSize(5);
     }
-    
+
     public void printHourglassOfGivenSize(int height) {
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < height; j++) {

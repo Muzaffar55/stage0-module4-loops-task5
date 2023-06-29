@@ -6,7 +6,7 @@ public class Cross {
         printCross(5);
     }
 
-    public void printCross(int sideLength) {
+    public static void printCross(int sideLength) {
         for (int i = 0; i < sideLength; i++) {
             for (int j = 0; j < sideLength; j++) {
                 if (i == sideLength / 2 || j == sideLength / 2) {
@@ -14,8 +14,10 @@ public class Cross {
                 } else {
                     System.out.print(" ");
                 }
+
             }
-            System.out.print();
+            System.out.println();
         }
+
     }
 }
